@@ -1,0 +1,52 @@
+/*CSS for the halfpong game.*/
+
+body {
+    overflow: hidden;
+}
+
+.hwall {
+    border: 2px solid black;
+    width: 800px;
+    height: 20px;
+    position: relative;
+}
+
+.vwall {
+    width: 20px;
+    height: 350px;
+    position: relative;
+}
+
+#lwall {
+    border-left: 2px solid black;
+    float: left;
+}
+
+#rwall {
+    background-color: red;
+    border-right: 2px solid black;
+    left: 782px;
+    top: -362px;
+}
+
+#bwall {
+    clear: both;
+    top: -364px;
+    background-color: white;
+}
+
+#field {
+    position: relative;
+}
+
+#playbutton {
+    position: fixed;
+    left: 840px;
+    top: 20px;
+}
+
+#restartbutton {
+    position: fixed;
+    left: 840px;
+    top: 60px;
+}
